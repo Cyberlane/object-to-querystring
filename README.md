@@ -1,1 +1,18 @@
 # object-to-querystring
+
+Convert an object into a query string.
+
+## Example
+
+```js
+import objectToQuery from 'object-to-querystring';
+
+const params = {
+  name: 'Justin',
+  number: 12345,
+};
+const querystring = objectToQuery(params);
+/*
+ querystring === '?name=Justin&number=12345'
+*/
+```
