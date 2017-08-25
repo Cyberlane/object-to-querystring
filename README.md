@@ -1,4 +1,5 @@
 [![Version](http://img.shields.io/npm/v/object-to-querystring.svg)](https://www.npmjs.org/package/object-to-querystring)
+[![npm](https://img.shields.io/npm/dt/object-to-querystring.svg)](Downloads)
 
 # object-to-querystring
 
