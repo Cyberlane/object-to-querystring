@@ -1,3 +1,5 @@
+[![Version](http://img.shields.io/npm/v/object-to-querystring.svg)](https://www.npmjs.org/package/object-to-querystring)
+
 # object-to-querystring
 
 Convert an object into a query string.
