@@ -1,6 +1,6 @@
 {
   "name": "object-to-querystring",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert an object into a query string",
   "main": "./lib",
   "scripts": {
