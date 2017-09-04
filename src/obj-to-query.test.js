@@ -47,5 +47,9 @@ tape('obj-to-query.js', ({ test}) => {
       });
       assert.equal(result, '?name=Justin&number=0&foo=bar&moreNumbers=123');
     });
+    check('object with array formats correctly', (assert) => {
+      const result = objToQuery({ numbers: [5, 10, 15] });
+      assert.equal(result, '?numbers=5&numbers=10&numbers=15');
+    });
   });
 });
